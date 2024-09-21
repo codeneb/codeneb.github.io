@@ -27,7 +27,7 @@
     <body>
         <h1>koneb</h1>
         <h2>welcome to my devpage!</h2>
-        <p>business email: konebstreaming@gmail.com</p>
+        <p>email: konebstreaming@gmail.com</p>
         <h2>about me</h2>
         <p>beginner programmer, currently learning python</p>
         <button onclick="playSound()">yippey</button>
@@ -40,6 +40,9 @@
                 var sound = document.getElementById("yippey-sound");
                 sound.play();
             }
+<h1>silly cat images</h1>
+<img src="download (27).jpeg" alt="Profile Image" width="300">
+    <img src="😴.jpeg" alt="Profile Image" width="300">
         </script>
     </body>
 </html>
