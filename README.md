@@ -30,6 +30,7 @@
         <p>email: konebstreaming@gmail.com</p>
         <h2>about me</h2>
         <p>beginner programmer, currently learning python</p>
+<body>
         <button onclick="playSound()">yippey</button>
         <audio id="yippey-sound">
             <source src="yippee-made-with-Voicemod.mp3" type="audio/mpeg">
@@ -41,6 +42,7 @@
                 sound.play();
             }
         </script>
+    <body>
         <h1>silly cat images</h1>
         <img src="download (27).jpeg" alt="Profile Image" width="300">
         <img src="😴.jpeg" alt="Sleeping Cat" width="300">
