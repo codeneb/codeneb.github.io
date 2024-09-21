@@ -17,7 +17,18 @@
                 border-radius: 5px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 600;
-            }
+                 }
+        .time-container {
+            display: flex;
+            align-items: center; /* Aligns items vertically centered */
+        }
+        img {
+            display: block; /* Ensures images are block elements */
+            margin-bottom: 20px; /* Space below each image */
+        }
+        img.time-image {
+            margin-right: 10px; /* Space between image and text */
+        }
             button:hover {
                 background-color: limegreen;
             }
@@ -49,7 +60,6 @@
 <head>
     <meta charset="utf-8">
     <title>Current Time in Sydney</title>
-     <img src="he IS listening_!__!!_.jpeg" alt="Profile Image" width="50">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -64,8 +74,11 @@
     </style>
 </head>
 <body>
-    <h2>the time in my city</h2>
-    <p>Current time in Sydney:</p>
+      <h2>the time in my city</h2>
+    <div class="time-container">
+        <p>Current time in Sydney:</p>
+        <img src="he IS listening_!__!!_.jpeg" alt="Profile Image" width="50" class="time-image">
+    </div>
     <div id="time"></div>
 
    <script>
