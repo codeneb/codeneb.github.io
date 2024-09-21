@@ -24,13 +24,12 @@
             }
         </style>
     </head>
-    <body>
         <h1>koneb</h1>
         <h2>welcome to my devpage!</h2>
         <p>email: konebstreaming@gmail.com</p>
         <h2>about me</h2>
         <p>beginner programmer, currently learning python</p>
-<body>
+    <h2>funy button<\h2>
         <button onclick="playSound()">yippey</button>
         <audio id="yippey-sound">
             <source src="yippee-made-with-Voicemod.mp3" type="audio/mpeg">
@@ -43,7 +42,7 @@
             }
         </script>
     <body>
-        <h1>silly cat images</h1>
+        <h2>silly cat images</h2>
         <img src="download (27).jpeg" alt="Profile Image" width="300">
         <img src="😴.jpeg" alt="Sleeping Cat" width="300">
     </body>
