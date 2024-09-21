@@ -53,7 +53,7 @@
     <body>
         <h2>silly cat images</h2>
         <img src="download (27).jpeg" alt="Profile Image" width="300">
-        <img src="😴.jpeg" alt="Sleeping Cat" width="450">
+        <img src="😴.jpeg" alt="Sleeping Cat" width="250">
     </body>
 </html>
 <html>
@@ -76,8 +76,8 @@
 <body>
       <h2>the time in my city</h2>
     <div class="time-container">
-        <p>Current time in Sydney:</p>
-        <img src="he IS listening_!__!!_.jpeg" alt="Profile Image" width="50" class="time-image">
+        <p>Current time in Sydney: </p>
+        <img src="he IS listening_!__!!_.jpeg" alt="Profile Image" width="20" class="time-image">
     </div>
     <div id="time"></div>
 
