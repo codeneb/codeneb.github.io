@@ -7,13 +7,6 @@
         <style>
             body {
                 font-family: 'Open Sans', sans-serif;
-                margin: 20px;
-            }
-            h1, h2 {
-                margin-bottom: 20px; /* Add space below headings */
-            }
-            p {
-                margin-bottom: 20px; /* Add space below paragraphs */
             }
             button {
                 background-color: lightgreen;
@@ -25,22 +18,17 @@
                 border-radius: 5px;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 600;
-                margin-top: 20px; /* Space above the button */
-                margin-bottom: 40px; /* Space below the button to separate it from the next section */
             }
             button:hover {
                 background-color: limegreen;
             }
-            img {
-                display: block; /* Display images as block elements */
-                margin-bottom: 20px; /* Add space below each image */
-            }
         </style>
     </head>
     <body>
-        <h1>koneb's devpage</h1>
+        <h1>koneb</h1>
         <h2>welcome to my devpage!</h2>
         <p>email: konebstreaming@gmail.com</p>
+}
         <h2>about me</h2>
         <p>beginner programmer, currently learning python</p>
         <button onclick="playSound()">yippey</button>
@@ -48,16 +36,14 @@
             <source src="yippee-made-with-Voicemod.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
-}
-        <h1>silly cat images</h1>
-        <img src="download (27).jpeg" alt="Profile Image" width="300">
-        <img src="😴.jpeg" alt="Sleeping Cat" width="300">
-   }     
         <script>
             function playSound() {
                 var sound = document.getElementById("yippey-sound");
                 sound.play();
             }
         </script>
+        <h1>silly cat images</h1>
+        <img src="download (27).jpeg" alt="Profile Image" width="300">
+        <img src="😴.jpeg" alt="Sleeping Cat" width="300">
     </body>
 </html>
