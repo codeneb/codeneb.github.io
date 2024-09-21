@@ -28,7 +28,6 @@
         <h1>koneb</h1>
         <h2>welcome to my devpage!</h2>
         <p>email: konebstreaming@gmail.com</p>
-
         <h2>about me</h2>
         <p>beginner programmer, currently learning python</p>
         <button onclick="playSound()">yippey</button>
