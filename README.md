@@ -1,8 +1,22 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>koneb's devpage</title>
+        <style>
+            /* Button styling */
+            button {
+                background-color: lightgreen; /* Light green background */
+                color: darkgreen; /* Dark green text */
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 5px;
+            }            
+            button:hover {
+                background-color: limegreen; /* Change to a darker green when hovered */
+            }
+        </style>
     </head>
     <body>
         <h1>koneb</h1>
