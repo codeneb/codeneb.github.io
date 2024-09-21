@@ -45,3 +45,39 @@
         <img src="😴.jpeg" alt="Sleeping Cat" width="450">
     </body>
 </html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Current Time in Sydney</title>
+     <img src="he IS listening_!__!!_.jpeg" alt="Profile Image" width="50">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 20px;
+        }
+        #time {
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h2>the time in my city</h2>
+    <p>Current time in Sydney:</p>
+    <div id="time"></div>
+
+   <script>
+        function updateTime() {
+            const options = { timeZone: 'Australia/Sydney', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            const timeString = new Intl.DateTimeFormat('en-AU', options).format(new Date());
+            document.getElementById('time').textContent = timeString;
+        }
+
+        // Update the time every second
+        setInterval(updateTime, 1000);
+        updateTime(); // Initial call to display time immediately
+    </script>
+</body>
+</html>
