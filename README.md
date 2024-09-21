@@ -27,7 +27,7 @@
         <h2>welcome to my devpage!</h2>
         <h2>about me</h2>
         <p>beginner programmer, currently learning python</p>
-    <h2>funy button<\h2>
+    <h2>funy button</h2>
         <button onclick="playSound()">yippey</button>
         <audio id="yippey-sound">
             <source src="yippee-made-with-Voicemod.mp3" type="audio/mpeg">
