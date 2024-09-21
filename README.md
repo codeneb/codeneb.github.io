@@ -7,6 +7,8 @@
             body {
                 font-family: 'Open Sans', sans-serif;
                 max-width: 800px;
+                margin-left: auto; /* Center the container */
+                margin-right: auto; /* Center the container */
             }
             button {
                 background-color: lightgreen;
