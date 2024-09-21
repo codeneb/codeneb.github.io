@@ -6,6 +6,7 @@
         <style>
             body {
                 font-family: 'Open Sans', sans-serif;
+                max-width: 800px;
             }
             button {
                 background-color: lightgreen;
