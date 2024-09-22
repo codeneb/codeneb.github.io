@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>koneb's devpage</title>
@@ -6,80 +7,70 @@
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
-            max-width: 1000px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px; /* Add some padding around the content */
-            line-height: 1.6; /* Improves readability by increasing line height */
+            margin: 20px;
+            max-width: 1350px; /* Limit the width of the content */
+            margin-left: auto; /* Center the container */
+            margin-right: auto; /* Center the container */
         }
         h2 {
-            margin-top: 40px; /* Adds space before each section header */
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
         p {
-            margin-bottom: 20px; /* Space between paragraphs */
+            margin-bottom: 20px;
         }
         button {
             background-color: lightgreen;
             color: darkgreen;
             border: none;
-            padding: 15px 30px;
-            font-size: 18px;
+            padding: 10px 20px;
+            font-size: 16px;
             cursor: pointer;
             border-radius: 5px;
-            font-family: 'Open Sans', sans-serif;
             font-weight: 600;
-            margin-top: 20px; /* Adds space above the button */
+            margin-bottom: 20px; /* Space below the button */
         }
         button:hover {
             background-color: limegreen;
         }
+        #time {
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
         .time-container {
             display: flex;
-            align-items: center;
-            margin-top: 30px; /* Adds space above time display */
+            align-items: center; /* Aligns items vertically centered */
         }
         img {
-            display: block;
-            margin-bottom: 40px; /* Adds space below each image */
-            max-width: 100%; /* Ensure images are responsive */
+            display: block; /* Ensures images are block elements */
+            margin-bottom: 20px; /* Space below each image */
         }
         img.time-image {
-            margin-right: 10px; /* Space between the time image and text */
+            margin-right: 10px; /* Space between image and text */
         }
-        #time {
-            font-size: 28px;
-            font-weight: 600;
-            margin-top: 20px;
-        }
-    
+    </style>
 </head>
 <body>
     <h2>welcome to my website!</h2>
     <h2>about me</h2>
-    <p>Beginner programmer, currently learning Python.</p>
+    <p>beginner programmer, currently learning Python.</p>
     <p>Games I like: Ultrakill, Minecraft, Roblox.</p>
- 
-</head>
 <body>
-    <h2>Funy button</h2>
-    <button onclick="playSound()">Yippey!</button>
+    <h2>funny button</h2>
+    <button onclick="playSound()">yippey</button>
     <audio id="yippey-sound">
         <source src="yippee-made-with-Voicemod.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
- 
-</head>
 <body>
     <h2>silly cat images</h2>
     <img src="download (27).jpeg" alt="Profile Image" width="300">
-    <img src="😴.jpeg" alt="Sleeping Cat" width="250">
- 
-</head>
-<body>
+    <img src="😴.jpeg" alt="Sleeping Cat" width="450">
     <h2>the time in my city</h2>
     <div class="time-container">
-        <p>current time in sydney: </p>
-        <img src="he IS listening_!__!!_.jpeg" alt="Clock Icon" width="40" class="time-image">
+        <p>Current time in Sydney:</p>
+        <img src="he IS listening_!__!!_.jpeg" alt="Profile Image" width="50" class="time-image">
     </div>
     <div id="time"></div>
     <script>
