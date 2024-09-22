@@ -87,4 +87,4 @@
         updateTime(); // Initial call to display time immediately
     </script>
 </body>
-</html>
+
