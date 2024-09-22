@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -13,8 +12,8 @@
             margin-right: auto; /* Center the container */
         }
         h2 {
-            margin-top: 20px;
-            margin-bottom: 10px;
+            margin-top: 60px;
+            margin-bottom: 50px;
         }
         p {
             margin-bottom: 20px;
